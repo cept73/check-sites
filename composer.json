@@ -1,0 +1,19 @@
+{
+    "name": "cept/check-sites",
+    "autoload": {
+        "psr-4": {
+            "Cept\\CheckSites\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Taranov",
+            "email": "cept73@yandex.ru"
+        }
+    ],
+    "require": {
+        "irazasyed/telegram-bot-sdk": "^3.14",
+        "vlucas/phpdotenv": "^5.6",
+        "ext-curl": "*"
+    }
+}
